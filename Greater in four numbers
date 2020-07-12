@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a,b,c,d;
+    printf("enter the value of a");
+ 	scanf("%d",&a);
+    printf("enter the value of b");
+    scanf("%d",&b);
+    printf("enter the value of c");
+ 	scanf("%d",&c);
+    printf("enter the value of d");
+ 	scanf("%d",&d);
+    if((a>b)&&(a>c)&&(a>d))
+          {
+    	       printf("a is greater");
+	        }
+	  if((b>a)&&(b>c)&&(b>d))
+	        {
+	        	printf("b is greater");
+    	    }
+	  if((c>a)&&(c>b)&&(c>d))
+	        {
+		        printf("c is greater");
+         	}
+	  if((d>a)&&(d>c)&&(d>b))
+	        {
+		        printf("d is greater");
+	        }
+	return 0;
+}
