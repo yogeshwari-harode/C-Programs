@@ -1,19 +1,19 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
-    int p,r,t,simple_interest;
+    float P,R,T,SI;
+    printf("Enter the value of P : ");
+    scanf("%f",&P);
     
-    printf("Enter the value of p : ");
-    scanf("%d",&p);
+    printf("Enter the value of R : ");
+    scanf("%f",&R);
     
-    printf("Enter the value of r : ");
-    scanf("%d",&r);
-    
-    printf("Enter the value of t : ");
-	  scanf("%d",&t);
+    printf("Enter the value of T : ");
+    scanf("%f",&T);
 	  
-    simple_interest=(p*r*t)/100;
-	  printf("simple_interest=%d",simple_interest);
+    SI=(P*R*T)/100;
+    printf("simple_interest = %f",SI);
 	
   return 0;
 }
