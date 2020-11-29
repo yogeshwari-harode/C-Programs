@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
     int Hindi,English,Maths,Physics,Chemistry;
     float Percentage;
@@ -16,5 +16,5 @@ void main()
     scanf("%d",& Chemistry);
     Percentage=((Hindi+English+Maths+Physics+Chemistry)*100)/500;
     printf ("percentage of student is =%f", percentage);
-    getch();
+    return 0;
 }    
