@@ -2,7 +2,8 @@
 #include<conio.h>
 void main()
 {
-    int Hindi,English,Maths,Physics,Chemistry,Percentage;
+    int Hindi,English,Maths,Physics,Chemistry;
+    float Percentage;
     Printf(" Enter the marks of Hindi");
     scanf("%d",& Hindi);
     Printf(" Enter the marks of English);
@@ -13,7 +14,7 @@ void main()
     scanf("%d",& Physics);
     Printf(" Enter the marks of Chemistry);
     scanf("%d",& Chemistry);
-    Percentage=(Hindi+English+Maths+Physics+Chemistry)/5;
-    printf ("percentage of student is =%d", percentage);
+    Percentage=((Hindi+English+Maths+Physics+Chemistry)*100)/500;
+    printf ("percentage of student is =%f", percentage);
     getch();
 }    
