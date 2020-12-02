@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int main() 
+{
+	int height,width,Area_of_rectangle;
+	
+  printf("Enter the height of rectangle(in cm ) : ");
+	scanf("%d",&height);
+	
+  printf("Enter the width of rectangle(in cm ) : ");
+	scanf("%d",&width);
+	
+  Area_of_rectangle=height*width ;
+	printf("Area of rectangle = %d cm sq.",Area_of_rectangle);
+	return 0;	
+}
