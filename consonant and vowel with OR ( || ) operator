@@ -1,0 +1,45 @@
+#include<stdio.h>
+#include<conio.h>
+int main() 
+{
+	char character,lowercase_vowel,uppercase_vowel;
+	printf("Enter any character : ");
+	scanf("%c",&character);
+	
+	/*
+  
+	lowercase_vowel=(character=='a'||character=='e'||character=='i'||character=='o'||character=='u');
+	
+	uppercase_vowel=(character=='A'||character=='E'||character=='I'||character=='O'||character=='U');
+	
+	if(lowercase_vowel||uppercase_vowel)
+	  {
+		  printf("%c is a vowel.",character);
+	  }
+	else
+    {
+		  printf("%c is a consonant.",character);
+	  }
+    
+	*/	
+
+	    if(character=='a'||character=='e'||character=='i'||character=='o'||character=='u'||character=='A'||character=='E'||character=='I'||character=='O'||character=='U')
+	      {
+		      printf("%c is vowel.",character);
+	      }
+	    else
+        {
+	    	  printf("%c is consonant.",character);
+	      }
+	
+	return 0;
+}
+
+
+
+
+
+
+
+
+
