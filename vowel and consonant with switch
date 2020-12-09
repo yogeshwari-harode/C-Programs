@@ -1,0 +1,63 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	char character;
+	printf("Enter any character : ");
+	scanf("%c",&character);
+	switch(character)
+	{
+		/*
+		case 'a':
+			printf("%c is a vowel.",character);
+			break;
+		case 'e':
+			printf("%c is a vowel.",character);
+			break;
+		case 'i':
+			printf("%c is a vowel.",character);
+			break;
+		case 'o':
+			printf("%c is a vowel.",character);
+			break;
+		case 'u':
+			printf("%c is a vowel",character);
+			break;
+		case 'A':
+			printf("%c is a vowel.",character);
+			break;
+		case 'E':
+			printf("%c is a vowel.",character);
+			break;
+		case 'I':
+			printf("%c is a vowel.",character);
+			break;
+		case 'O':
+			printf("%c is a vowel.",character);
+			break;
+		case 'U':
+			printf("%c is a vowel.",character);
+			break;
+		default:
+			printf("%c is a consonant.",character);
+	
+	*/	
+		//OR
+		
+		case 'a':
+		case 'e':
+		case 'i':
+		case 'o':
+		case 'u':
+		case 'A':
+		case 'E':
+		case 'I':
+		case 'O':
+		case 'U':
+			printf("%c is a vowel.",character);
+			break;
+		default:
+			printf("%c is a consonant.",character);		
+	}
+	return 0;	
+}		
