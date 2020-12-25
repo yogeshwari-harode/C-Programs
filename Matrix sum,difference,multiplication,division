@@ -1,0 +1,74 @@
+#include<stdio.h>
+#include<conio.h>
+int main() 
+{
+   int A[2][2],B[2][2],C[2][2],i,j;
+   
+   //SCAN MATRIX A
+   
+   printf("Enter the first matrix : ");
+   for(i=0;i<2;i++)
+   {
+   	for(j=0;j<2;j++)
+   		{
+   			scanf("%d",&A[i][j]);
+	   	}
+   }
+   
+   	//SCAN MATRIX B
+   		
+   		printf("\nEnter the second matrix : ");
+   		for(i=0;i<2;i++)
+   		{
+   			for(j=0;j<2;j++)
+   				{
+   					scanf("%d",&B[i][j]);
+	   			}
+   		}
+   		
+	//PRINT MATRIX A
+	
+			printf("\tA\n\n");
+			
+   			for(i=0;i<2;i++)
+      		{
+   				for(j=0;j<2;j++)
+   					{
+   						printf("%4d\t",A[i][j]);
+	   				}
+	    	printf("\n\n");
+   			}
+   	
+   	printf("\n\n");
+   	
+   	//PRINT MATRIX B
+   	
+   		printf("\tB\n\n");
+   		for(i=0;i<2;i++)
+      	{
+   			for(j=0;j<2;j++)
+   				{
+   					printf("%4d\t",B[i][j]);
+	   			}
+	   			printf("\n\n");
+   		}
+   	printf("\n\n");
+   	
+   	//FOR MATRIX C
+   		printf("\tC\n\n");
+ 		for(i=0;i<2;i++)
+      	{
+      		
+   			for(j=0;j<2;j++)
+   				{
+   					C[i][j]=A[i][j]+B[i][j]; 
+	//IF YOU WANT TO MULTIPLY(*),DIVIDE(\),SUBTRACTION(-) THIS VALUE 
+	//THEN YOU ONLY NEED TO CHANGE THE OPERATOR HERE
+   					printf("%4d\t",C[i][j]);
+	   			}
+	   			printf("\n\n");
+   		}  
+   
+   			
+    return 0;
+}
