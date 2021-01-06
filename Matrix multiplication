@@ -1,0 +1,86 @@
+#include<stdio.h>
+#include<conio.h>
+int main() 
+{
+   int A[3][3],B[3][3],C[3][3],i,j,k,sum;
+   
+   //SCAN MATRIX A
+   
+   printf("Enter the elements of first matrix : ");
+   for(i=0;i<=2;i++)
+   {
+   	for(j=0;j<=2;j++)
+   		{
+   			scanf("%d",&A[i][j]);
+	   	}
+   }
+   
+   //SCAN MATRIX B
+   
+	printf("Enter the elements of second matrix : ");
+   for(i=0;i<=2;i++)
+   {
+   	for(j=0;j<=2;j++)
+   		{
+   			scanf("%d",&B[i][j]);
+	   	}
+   }
+   
+   //PRINT MATRIX A
+	
+			printf("\tA\n\n");
+			
+   			for(i=0;i<=2;i++)
+      		{
+   				for(j=0;j<=2;j++)
+   					{
+   						printf("%4d\t",A[i][j]);
+	   				}
+	    	printf("\n\n");
+   			}
+   	
+   	printf("\n\n");
+   	
+   	//PRINT MATRIX B
+   	
+   		printf("\tB\n\n");
+   		for(i=0;i<=2;i++)
+      	{
+   			for(j=0;j<=2;j++)
+   				{
+   					printf("%4d\t",B[i][j]);
+	   			}
+	   			printf("\n\n");
+   		}
+   	printf("\n\n");
+   	
+   	
+   //FOR MATRIX C
+   
+   for(i=0;i<=2;i++)
+   {
+   	for(j=0;j<=2;j++)
+   		{
+   			sum=0;
+   			for(k=0;k<=2;k++)
+   			{
+   				sum=sum+A[i][k]*B[k][j];
+   			}
+   			C[i][j]=sum;
+	   	}
+   }
+   
+   
+   for(i=0;i<=2;i++)
+   {
+   	for(j=0;j<=2;j++)
+   		{
+   			printf("%4d\t",C[i][j]);
+	   	}
+	   	printf("\n\n");
+   }
+   return 0;
+}
+   
+   
+
