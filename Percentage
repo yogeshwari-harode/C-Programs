@@ -20,14 +20,7 @@ int main()
 	scanf("%d",&chemistry);
   
 	percentage=((hindi+english+maths+physics+chemistry)*100)/500;
-	printf("%f",percentage);
+	printf("%.2f",percentage);
 	
   return 0;
 }
-
-
-
-
-
-
-
