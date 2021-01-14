@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a,b;
+	printf("enter tne value of a=");
+	scanf("%d",&a);
+	printf("enter tne value of b=");
+	scanf("%d",&b);
+  a=a+b;
+	b=a-b;
+	a=a-b;
+	printf("\nAfter swaping the value of a : %d",a);
+	printf("\nAfter swaping the value of b : %d",b);
+ return 0;
+}
