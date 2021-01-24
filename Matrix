@@ -28,16 +28,16 @@ int main()
    		
 	//PRINT MATRIX A
 	
-			printf("\tA\n\n");
+	        printf("\tA\n\n");
 			
-   			for(i=0;i<2;i++)
+   	        for(i=0;i<2;i++)
       		{
-   				for(j=0;j<2;j++)
-   					{
-   						printf("%4d\t",A[i][j]);
-	   				}
-	    	printf("\n\n");
-   			}
+   			for(j=0;j<2;j++)
+   				{
+   					printf("%4d\t",A[i][j]);
+	   			}
+	    	    printf("\n\n");
+   		}
    	
    	printf("\n\n");
    	
@@ -45,27 +45,26 @@ int main()
    	
    		printf("\tB\n\n");
    		for(i=0;i<2;i++)
-      	{
+      	        {
    			for(j=0;j<2;j++)
    				{
    					printf("%4d\t",B[i][j]);
 	   			}
-	   			printf("\n\n");
+	   	    printf("\n\n");
    		}
    	printf("\n\n");
    	
    	//FOR MATRIX C
    		printf("\tC\n\n");
  		for(i=0;i<2;i++)
-      	{
-      		
-   			for(j=0;j<2;j++)
-   				{
+      	        {
+      	                 for(j=0;j<2;j++)
+   			         {
    					C[i][j]=A[i][j]+B[i][j]; 
 	//IF YOU WANT TO DIVIDE(\),SUBTRACTION(-) THIS VALUE 
 	//THEN YOU ONLY NEED TO CHANGE THE OPERATOR HERE
    					printf("%4d\t",C[i][j]);
-	   			}
+	   			 }
 	   			printf("\n\n");
    		}  
    
