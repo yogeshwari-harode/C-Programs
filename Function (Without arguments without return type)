@@ -2,13 +2,13 @@
 #include<conio.h>
 int main()
 {
-    clrscr();
-    add();
-    getch();
+    void add(void);    //function prototype or fuction declaration
+    add();             //function call
 }
 
 void add()
 {
+                        //function definition
      int a,b,c;
      printf("Enter the value of a,b : ");
      scanf("%d%d",&a,&b);
